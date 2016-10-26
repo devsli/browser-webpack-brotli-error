@@ -1,0 +1,18 @@
+Trying to figure out, is it possible to build brotli (and PDFKit) using webpack
+with devtools set to "eval".
+
+Steps to reproduce:
+
+  git clone https://github.com/devsli/browser-webpack-brotli-error.git
+  cd browser-webpack-brotli-error
+  npm install
+  npm start
+  open http://localhost:3000
+
+References:
+
+- devtool: 'eval' causes ReferenceError #417
+  https://github.com/webpack/webpack/issues/417
+
+- brotli.js repository
+  https://github.com/devongovett/brotli.js
