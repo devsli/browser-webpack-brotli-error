@@ -2,7 +2,7 @@
 
 Trying to figure out, is it possible to build
 [brotli](https://github.com/devongovett/brotli.js) (and then PDFKit) using
-webpack with `devtools` set to `eval`.
+webpack with `devtool` set to `eval`.
 
 ## Steps to reproduce
 
