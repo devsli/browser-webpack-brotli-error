@@ -50,11 +50,11 @@ Console output:
 ```
 ▶︎ About to fail
 ▶︎ function (input) {
-  this.buf_ = new Uint8Array(BROTLI_IBUF_SIZE);
-  this.input_ = input; /* input callback */
+    this.buf_ = new Uint8Array(BROTLI_IBUF_SIZE);
+    this.input_ = input; /* input callback */
 
-  this.reset();
-}
+    this.reset();
+  }
 ▶︎ Not failed
 ```
 
